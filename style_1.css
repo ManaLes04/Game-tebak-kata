@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 25%%;
+    top: 5%;
+}
+
+#game-container {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#clue {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#word-display {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+#letter-input {
+    width: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#guess-button {
+    background-color: #32CD32;
+    color: white;
+}
+
+#guess-button:hover {
+    background-color: #28a745;
+}
+
+#restart-button {
+    background-color: #FF4500;
+    color: white;
+}
+
+#restart-button:hover {
+    background-color: #218838;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
